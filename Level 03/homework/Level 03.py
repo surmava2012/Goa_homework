@@ -1,6 +1,9 @@
 name = "Aleksandre"
-last_name = "Surmava"
-country = "georgia"
+surname = "Surmava"
+age = 11
+height = 72.8
 hobby = "socer"
-city = "kutaisi"
-print(name, last_name, country, hobby, city)
+country = "Georgia"
+city = "Kutaisi"
+mood = "funny"
+print(" my name is " + name +" im " + str(age) + " yars old " +  " my height is " + str(height) + " my hobby is " + hobby + " my country " + country + " my city " + city)
