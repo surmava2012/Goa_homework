@@ -7,7 +7,7 @@ name = "Aleksandre"
 last_name = "Surmava"
 proffesion = "GOA student"
 
-print(name + "Aleksandre" + last_name + "surmava" + proffesion + "GOA student")
+print(name + " Aleksandre " + last_name + " surmava " + proffesion + " GOA student ")
 
 # Updating Variable Value
 
@@ -17,18 +17,15 @@ name = "Lazare"
 
 name ="Giorgi"
 
-name = "Luka"
+name = "Luka maimuni"
 name = 100
-print(name)
+print(name) 
 
 
 
 name = "Aleksandre"
 last_name = "Surmava"
 print(name)
-
-
-
 
 
 
