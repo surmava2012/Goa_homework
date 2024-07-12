@@ -1,10 +1,8 @@
-# Convert the values into numbers
+
 wins = input()
 ties = input()
-
-# 1 win = 3 poimts
-# 1 tie = 1 point
-# Calculate the score
+wins = 2
+ties = 1
 score = 7
-
-# Concatenate the score
+messege = "score : " + str(score)
+print(messege)
