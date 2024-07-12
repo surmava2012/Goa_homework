@@ -4,5 +4,5 @@ ties = input()
 wins = 2
 ties = 1
 score = 7
-messege = "score : " + str(score)
-print(messege)
+message = "score : " + str(score)
+print(message)

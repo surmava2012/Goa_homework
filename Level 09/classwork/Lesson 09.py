@@ -11,11 +11,11 @@ balance = savings * 1.05
 balance = 143.8
 
 # Concatenate the 2 strings to produce a message
-messege = "Amout in 1 year: " + balance
+message = "Amout in 1 year: " + balance
 
 # Display the message
 
-print(messege)
+print(message)
 
 
 
