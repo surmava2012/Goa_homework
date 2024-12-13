@@ -1,0 +1,30 @@
+.section-static {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.section-relative {
+    padding: 20px;
+    background-color: #15ff00;
+}
+
+.content-absolute {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: #9f4cd6;
+    padding: 15px;
+}
+
+.section-sticky {
+    padding: 20px;
+    background-color: #d19191;
+}
+
+.sticky-element {
+    position: sticky;
+    top: 10px;
+    background-color: #ff9800;
+    padding: 15px;
+    color: white;
+}

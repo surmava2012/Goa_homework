@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+}
+
+.text p {
+    color: aqua;
+    font-size: 24px;
+    font-family: cursive;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.disign p{
+    text-align: start;
+}
