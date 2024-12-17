@@ -1,0 +1,1 @@
+print("My name is {name} and I am {age} years old.".format(name="Aleksandre", age=12))

@@ -1,0 +1,2 @@
+empty = []
+print("".join(empty))
