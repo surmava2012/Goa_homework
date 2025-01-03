@@ -4,3 +4,4 @@ step = int(input("ნაბიჯი: "))
 
 for num in range(start, end, step):
     print(num)
+    

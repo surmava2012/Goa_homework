@@ -1,0 +1,62 @@
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #FF6347;
+    --font-size: 18px;
+    --letter-spacing: 1px;
+    --padding: 20px;
+    --margin: 10px;
+    --background-color: #f0f0f0;
+}
+
+.div-1 {
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    font-size: var(--font-size);
+    letter-spacing: var(--letter-spacing);
+    padding: var(--padding);
+    margin: var(--margin);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    transition: transform 0.3s ease;
+}
+
+.div-1:hover {
+    transform: scale(1.1);
+}
+
+.div-2 {
+    color: white;
+    background-color: var(--secondary-color);
+    font-size: var(--font-size);
+    letter-spacing: var(--letter-spacing);
+    padding: var(--padding);
+    margin: var(--margin);
+    display: grid;
+    place-items: center;
+    height: 100px;
+    transition: background-color 0.3s ease;
+}
+
+.div-2:hover {
+    background-color: #FF4500;
+}
+
+.div-3 {
+    color: var(--primary-color);
+    background-color: #ddd;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 10px;
+    margin: 5px;
+    position: relative;
+    height: 100px;
+    transition: all 0.3s ease;
+}
+
+.div-3:hover {
+    background-color: #4CAF50;
+    color: white;
+    transform: translateY(10px);
+}

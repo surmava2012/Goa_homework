@@ -1,0 +1,38 @@
+body {
+    font-family: cursive;
+    color: cadetblue;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+.div {
+    width: 125px;
+    height: 80px;
+    background-color: rgb(25, 0, 255);
+    position: absolute;
+    animation: moveCircle 5s ease-in-out infinite;
+}
+
+@keyframes moveCircle {
+    0% {
+        top: 50%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+    }
+    50% {
+        top: 50%;
+        left: 90%;
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+    100% {
+        top: 50%;
+        left: 10%;
+        transform: translate(-50%, -50%) rotate(720deg);
+    }
+}
+/* EZ

@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .rotate-box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border-radius: 10px;
+    transform-origin: center;
+    animation: rotateAnimation 2s ease-in-out infinite;
+  }
+  
+  @keyframes rotateAnimation {
+    0% {
+      transform: rotate(0deg) translateX(0);
+    }
+    50% {
+      transform: rotate(180deg) translateX(200px);
+    }
+    100% {
+      transform: rotate(0deg) translateX(0);
+    }
+  }
+  
