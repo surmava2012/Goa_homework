@@ -1,0 +1,27 @@
+body {
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.image {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.p1 {
+    color: rgb(255, 99, 71);
+    font-size: 18px;
+}
+
+.p2 {
+    color: #4CAF50;
+    font-size: 18px;
+}
