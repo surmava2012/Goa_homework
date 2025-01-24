@@ -1,0 +1,19 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  h1 {
+    color: #2E8B57;
+  }
+  p {
+    color: #555;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
