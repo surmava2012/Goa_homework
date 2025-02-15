@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    font-family: space;
+    text-align: center;
+    color: aqua;
+  }
+
+  .about-section {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .contact-info-and-portfolio {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    border: none;
+  }
+
+  a {
+    color: #007bff;
+  }
